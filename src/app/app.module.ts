@@ -4,6 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PeriodicComponent } from './components/periodic/periodic.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatCardModule } from '@angular/material/card';
+import {  MatGridListModule } from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
@@ -12,7 +16,11 @@ import { PeriodicComponent } from './components/periodic/periodic.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatGridListModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

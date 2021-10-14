@@ -1,0 +1,20 @@
+[
+    {"name" : "Afghanistan", "code" : "AF","category":"cat1","rank":1}, 
+    {"name" : "Åland Islands", "code" : "AX" ,"category":"cat1","rank":2}, 
+    {"name" : "Albania", "code" : "AL" ,"category":"cat1","rank":3}, 
+    {"name" : "Algeria", "code" : "DZ" ,"category":"cat1","rank":4}, 
+    {"name" : "American Samoa", "code" : "AS" ,"category":"cat1","rank":5}, 
+    {"name" : "AndorrA", "code" : "AD" ,"category":"cat1","rank":6}, 
+    {"name" : "Angola", "code" : "AO" ,"category":"cat2","rank":1}, 
+    {"name" : "Anguilla", "code" : "AI" ,"category":"cat2","rank":2}, 
+    {"name" : "Antarctica", "code" : "AQ" ,"category":"cat2","rank":3}, 
+    {"name" : "Antigua and Barbuda", "code" : "AG" ,"category":"cat2","rank":4}, 
+    {"name" : "Argentina", "code" : "AR" ,"category":"cat2","rank":5}, 
+    {"name" : "Armenia", "code" : "AM" ,"category":"cat3","rank":1}, 
+    {"name" : "Aruba", "code" : "AW" ,"category":"cat3","rank":2}, 
+    {"name" : "Australia", "code" : "AU" ,"category":"cat3","rank":3}, 
+    {"name" : "Austria", "code" : "AT" ,"category":"cat3","rank":4}, 
+    {"name" : "Azerbaijan", "code" : "AZ" ,"category":"cat3","rank":6}, 
+    {"name" : "Bahamas", "code" : "BS" ,"category":"cat3","rank":5}, 
+    {"name" : "Bahrain", "code" : "BH","category":"cat3","rank":7}
+]

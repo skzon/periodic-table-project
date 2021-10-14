@@ -1,1 +1,126 @@
-<p>periodic works!</p>
+
+<div class="container" style="margin: 50px;">
+    <mat-grid-list  cols="18" rowHeight="70px"  rowWidth="100" style="margin:10px;"  >
+      <div  *ngFor="let x of ll">
+        <mat-grid-tile class="box type-0" >{{x}}</mat-grid-tile>
+    
+      </div>
+      <mat-grid-tile class="empty" ></mat-grid-tile>
+      <mat-grid-tile class="empty" ></mat-grid-tile>
+      <div  *ngFor="let y of emptyList">
+        <mat-grid-tile class="empty" ></mat-grid-tile>
+    
+      </div>
+      <!-- <div class="largebox"></div> -->
+      <div  *ngFor="let x of ll">
+        <mat-grid-tile class="box type-1" >{{x}}</mat-grid-tile>
+    
+      </div>
+    
+      
+    </mat-grid-list>
+    
+    <mat-grid-list  cols="18" rowHeight="70px"  rowWidth="100" style="margin:10px;"  >
+      <div  *ngFor="let x of l">
+        <mat-grid-tile class="box type-0" >{{x}}</mat-grid-tile>
+    
+      </div>
+      <div  *ngFor="let y of emptyList">
+        <mat-grid-tile class="empty" ></mat-grid-tile>
+    
+      </div>
+      <!-- <div class="largebox"></div> -->
+      <div  *ngFor="let x of l">
+        <mat-grid-tile class="box type-1" >{{x}}</mat-grid-tile>
+    
+      </div>
+    
+      
+    </mat-grid-list>
+    <mat-grid-list  cols="18" rowHeight="70px"  rowWidth="100" style="margin:10px;"  >
+      <div  *ngFor="let x of l">
+        <mat-grid-tile class="box type-0" >{{x}}</mat-grid-tile>
+    
+      </div>
+      <div  *ngFor="let y of emptyList">
+        <mat-grid-tile class="empty" ></mat-grid-tile>
+    
+      </div>
+      <!-- <div class="largebox"></div> -->
+      <div  *ngFor="let x of l">
+        <mat-grid-tile class="box type-1 " >{{x}}</mat-grid-tile>
+    
+      </div>
+    
+      
+    </mat-grid-list>
+    <mat-grid-list  cols="18" rowHeight="70px"  rowWidth="100" style="margin:10px;"  >
+      <div  *ngFor="let x of countryList">
+        <mat-grid-tile *ngIf="x.category==='cat1' && x.rank<6 "class="box type-2" ><div style="font-size: 12px;text-align: center;">{{x.name}}<br>{{x.code}}</div></mat-grid-tile>
+    
+      </div>
+      <div  *ngFor="let x of countryList">
+        <mat-grid-tile *ngIf="x.category==='cat2' && x.rank<6 "class="box type-3" ><div style="font-size: 12px;text-align: center;">{{x.name}}<br>{{x.code}}</div></mat-grid-tile>
+    
+      </div>
+      <div  *ngFor="let x of countryList">
+        <mat-grid-tile *ngIf="x.category==='cat3' && x.rank<6 "class="box type-4" ><div style="font-size: 12px;text-align: center;">{{x.name}}<br>{{x.code}}</div></mat-grid-tile>
+    
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-5" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-6" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-7" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-8" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-9" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-10" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-11" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-12" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-13" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-14" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-15" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-16" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-17" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-18" >{{x}}</mat-grid-tile>
+      </div>
+      <div  *ngFor="let x of largeList">
+        <mat-grid-tile *ngIf ="cat1" class="box type-19" >{{x}}</mat-grid-tile>
+      </div>
+      
+    </mat-grid-list>
+    
+    
+    
+    
+    
+    
+    
+    </div>
+      
+    
